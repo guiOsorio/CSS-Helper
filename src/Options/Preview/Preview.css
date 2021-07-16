@@ -1,0 +1,71 @@
+.preview,
+.previewFull {
+    min-height: 100%;
+    display: flex;
+
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.previewFull {
+    max-width: 100%;
+}
+
+.title {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.previewFull .titleFull {
+    padding: 1rem 5rem 0 0;
+}
+
+.titleFull {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.title svg {
+    font-size: 1.8rem;
+    transition: 1s;
+}
+
+.title svg:hover {
+    cursor: pointer;
+    font-size: 2.5rem;
+}
+
+.titleFull svg {
+    position: relative;
+    z-index: 11;
+    float: right;
+    font-size: 2.5rem;
+    transition: 1s;
+}
+
+.titleFull svg:hover {
+    cursor: pointer;
+    font-size: 3rem;
+}
+
+.output {
+    flex-grow: 1;
+}
+
+.outputFull {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+}
+
+#purple { background-color: purple }
+#pink { background-color: pink }
+#blue { background-color: blue }
+#red { background-color: red }
+#green { background-color: green }

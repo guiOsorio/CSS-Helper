@@ -1,0 +1,16 @@
+.form,
+.form-element {
+    padding-top: 1em;
+}
+
+label { padding-right: 0.4em }
+
+.form-element {
+    padding-left: 0.5em;
+    font-size: 1.2rem;
+}
+
+button {
+    padding: 0.2rem;
+    margin-right: 0.5em;
+}

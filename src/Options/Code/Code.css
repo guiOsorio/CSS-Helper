@@ -1,0 +1,8 @@
+.code {
+    min-height: 50%;
+    font-size: 1.5rem;
+}
+
+.code * {
+    padding-bottom: 0.5em;
+}

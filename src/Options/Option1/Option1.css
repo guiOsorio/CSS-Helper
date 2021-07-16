@@ -1,0 +1,22 @@
+.option1 {
+    padding-top: 1rem;
+}
+
+.containerFull {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+.main { flex-grow: 1 }
+
+.title-form {
+    min-height: 50%;
+}
+
+.side {
+    min-height: calc(100vh - 5rem - 4rem);
+}

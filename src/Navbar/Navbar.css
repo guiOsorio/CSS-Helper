@@ -1,0 +1,30 @@
+.nav {
+    background-color: black;
+    color: white;
+    min-height: 5rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 2rem;
+}
+
+.nav svg {
+    color: white;
+    font-size: 2rem;    
+}
+
+.home-link {
+    font-weight: bold;
+    padding-left: 2rem;
+}
+
+.links {
+    text-decoration: none;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
