@@ -34,13 +34,13 @@ class App extends Component {
           <Navbar icon={ <FaList /> } />
           <Router>
             <Switch>  
-              <Route exact path="/">
+              <Route exact path="/CSS-Helper/">
                 <Home />
               </Route>
-              <Route exact path="/demo">
+              <Route exact path="/CSS-Helper/demo">
                 <Option1 />
               </Route>
-              <Route exact path="/secret">
+              <Route exact path="/CSS-Helper/secret">
                 <Option2 />
               </Route>
             </Switch>  
@@ -52,10 +52,10 @@ class App extends Component {
       <div className="app">
         <Router>
           <Switch>
-            <Route exact path="/preview">
+            <Route exact path="/CSS-Helper/preview">
               <PreviewFull />
             </Route>
-            <Route path="/" component={normalRoutes} />
+            <Route path="/CSS-Helper/" component={normalRoutes} />
           </Switch>
         </Router>
       </div>
