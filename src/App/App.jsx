@@ -5,7 +5,7 @@ import Home from '../Home/Home.jsx';
 import Option1 from '../Options/Option1/Option1';
 import Option2 from '../Options/Option2/Option2';
 import PreviewFull from '../Options/Preview/PreviewFull';
-import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import { FaList } from 'react-icons/fa';
 
